@@ -23,8 +23,8 @@ const Column = ({ status }) => {
       <h2 className="text-xl font-medium mb-3 text-white text-center ">{status}</h2>
 
       {filteredTasks.length === 0 && (
-        <div className="flex flex-col items-center justify-center h-full">
-          <p className="text-white text-2xl ">No tasks</p>
+        <div className="flex flex-col items-center justify-center h-full py-10">
+          <p className="text-white text-2xl  ">No tasks</p>
         </div>
       )}
 
